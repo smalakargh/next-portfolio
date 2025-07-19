@@ -15,12 +15,6 @@ function Textrot() {
         color="#616161"
         anchorX="center"
         anchorY="middle"
-        depth={4}
-        curveSegments={12}
-        bevelEnabled
-        bevelSize={0.05}
-        bevelThickness={0.1}
-        height={0.3}
       >
         Coding Is An Emotion
       </Text>
