@@ -8,6 +8,8 @@ type Props = {
   imgName: string;
   iconLinks?: string[];
   liveLink?: string;
+  tag?: string;
+  tagColor?: string;
 }
 
 
@@ -27,7 +29,7 @@ const useMediaQuery = (query: string): boolean => {
   return matches;
 };
 
-function ProjectsBox({imgLink,imgName,iconLinks,liveLink}:Props) {
+function ProjectsBox({imgLink,imgName,iconLinks,liveLink,tag,tagColor}:Props) {
   const isMd = useMediaQuery('(min-width: 768px)');
   const [isActive, setIsActive] = useState(false);
   return (
@@ -56,6 +58,7 @@ function ProjectsBox({imgLink,imgName,iconLinks,liveLink}:Props) {
                 </span>
               )})}
               <a href={liveLink}><span className='absolute right-4 md:right-9 bg-neutral-600 text-white text-[12px] md:text-[13px] px-[6px] md:py-1 md:px-3 rounded-md flex items-center gap-1 cursor-pointer'>Link <MdOutlineLink /></span></a>
+              <span className='bg-purple-400 text-white absolute right-4 bottom-23 md:bottom-52 md:right-9 px-[6px] md:py-0 md:px-3 text-[11px] md:text-[18px] rounded-[3px]' style={{backgroundColor: `${tagColor}`}}>{tag}</span>
            </div>
         </div>
       </div>
