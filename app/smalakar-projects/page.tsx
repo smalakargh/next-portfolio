@@ -26,10 +26,11 @@ function page() {
         </div>
     </div>
     </main>
-    <div className='w-full min-h-screen flex flex-col p-4 md:p-9 gap-4 bg-[#9d9a9d]'>
+    <div className='w-full flex flex-col p-4 md:p-9 gap-4 bg-[#9d9a9d]'>
       {/* <nav className='border-amber-700 border flex justify-center p-4'>Projects</nav> */}
-      <section className='w-full min-h-screen flex-center flex-wrap bg-[#b5b2b5] border-2 border-white rounded-md'>
-        <ProjectsBox imgLink={'/Projects/01PJ.png'} imgName='Project1' />
+      <section className='w-full flex-center flex-wrap bg-[#b5b2b5] border-2 border-white rounded-md'>
+        <ProjectsBox imgLink={'/Projects/01PJ.png'} imgName='Vanilla-Project' iconLinks={['/Projects/icons/HTML5.svg','/Projects/icons/CSS3.svg','/Projects/icons/JS.svg']}/>
+        <ProjectsBox imgLink='/Projects/02PJ.png' imgName='React-Project' iconLinks={['/Projects/icons/REACTJS.svg','/Projects/icons/TAILWINDCSS.svg']} />
       </section>
     </div>
     </>
