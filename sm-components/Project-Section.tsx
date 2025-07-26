@@ -22,11 +22,15 @@ function ProjectSec() {
         </div>
 
         {/* Hero Image */}
-        <img
+        <div className='flex gap-0'>
+          <img src="/Extras/Standing01.png" alt="Standing" className='w-[50px] relative left-[35px] md:hidden'/>
+          <img
           src='/Extras/project-sec.png'
           alt='Project Showcase'
-          className='relative lg:bottom-[-100px] left-[60px] lg:left-[-20px] md:w-[500px] border border-white rounded-sm z-10'
+          className='relative lg:bottom-[-100px] left-[30px] md:left-0 lg:left-[-20px] md:hidden lg:flex lg:w-[800px] border border-white rounded-sm z-10'
         />
+        <img src="/Extras/Desktop-Project-Section.png" alt="Button-clicking" className='absolute hidden lg:flex w-[160px] right-0 bottom-0'/>
+        </div>
 
         {/* Background Layer */}
         <img
