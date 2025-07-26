@@ -34,6 +34,7 @@ function page() {
         <ProjectsBox imgLink='/Projects/03PJ.png' imgName='NextJs-Projects' iconLinks={['/Projects/icons/NEXTJS.svg','/Projects/icons/TAILWINDCSS.svg','/Projects/icons/Gsap.png','/Projects/icons/GIT.svg','/Projects/icons/GITHUB.svg','/Projects/icons/AI.svg']} liveLink='https://smalakar.vercel.app/' tag='#nextJS-project' />
         <ProjectsBox imgLink='/Projects/04PJ.png' imgName='Finance-Tracker' iconLinks={['/Projects/icons/HTML5.svg','/Projects/icons/CSS3.svg','/Projects/icons/JS.svg','/Projects/icons/GIT.svg','/Projects/icons/GITHUB.svg']} liveLink='https://financetracker-bice.vercel.app/index.html' tag='#02-iic-Hackathon' tagColor='#41b068' />
         <ProjectsBox imgLink='/Projects/05PJ.png' imgName='Finance-Tracker' iconLinks={['/Projects/icons/HTML5.svg','/Projects/icons/CSS3.svg','/Projects/icons/JS.svg','/Projects/icons/GITHUB.svg']} liveLink='https://developersupriyo.github.io/weatherapp/' tag='#01-iic-Hackathon' tagColor='#6ba2fa' />
+        <ProjectsBox imgLink='/Projects/06PJ.png' imgName='Clone-Projects' iconLinks={['/Projects/icons/HTML5.svg','/Projects/icons/CSS3.svg','/Projects/icons/JS.svg','/Projects/icons/GITHUB.svg']} liveLink='https://github.com/smalakargh/Clone-Projects' tag='#clone-projects-Yrs-2020' tagColor='#cf9a08' />
       </section>
     </div>
     </>
