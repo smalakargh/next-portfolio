@@ -142,4 +142,15 @@ body {
     @apply flex justify-center items-center;
   }
 }
-
+/*Project Spinner*/
+@theme {
+  --animate-spinner: spin 3s ease-in-out infinite;
+  @keyframes wiggle {
+    0%{
+      transform: rotate(10deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+}
