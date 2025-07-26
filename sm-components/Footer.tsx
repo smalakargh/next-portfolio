@@ -21,9 +21,9 @@ function Footer() {
         <div className='flex-center flex-col'>Connect
           <div className='rounded-md border px-4 py-2'>
             <ul className='flex gap-3 text-[30px]'>
-              <li><a href=""><FaLinkedinIn /></a></li>
-              <li><a href=""><FaGithub /></a></li>
-              <li><a href=""><IoMailOutline /></a></li>
+              <li><a href="https://www.linkedin.com/in/supriyomalakar/"><FaLinkedinIn /></a></li>
+              <li><a href="https://github.com/smalakargh"><FaGithub /></a></li>
+              <li><a href="mailto:smalakar@example.com?body=Hi%2C%20Smalakar%0A%20%20I%20came%20to%20know%20you%20from%20your%20website.%0A%20%20I%20found%20your%20content%20really%20insightful%20and%20impressive."><IoMailOutline /></a></li>
             </ul>
           </div>
         </div>
