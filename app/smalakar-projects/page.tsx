@@ -1,6 +1,8 @@
 import DotGrid from '@/rended-components/Dotted-particle'
 import ProjectsBox from '@/sm-components/Projects-Box'
+import Link from 'next/link'
 import React from 'react'
+import { FaArrowDown, FaArrowLeft } from 'react-icons/fa6'
 
 function page() {
   return (
@@ -20,15 +22,23 @@ function page() {
               />
         </div>
     <div className='h-full w-full absolute top-0  flex-center flex-wrap text-white backdrop-blur-[4px]'>
-        <div>
+        <div className='flex flex-col gap-3'>
         <p className='flex items-baseline gap-2 xl:gap-9'><span className='caveat text-[60px] xl:text-[160px] text-transparent bg-gradient-to-r from-blue-600 to-purple-500 bg-clip-text font-[500]'>Smalakar's</span>
         <span className='text-[10px] xl:text-[40px] font-[600]'>Projects</span></p>
-        </div>
+        <Link href={'/'} className='text-neutral-500 bg-zinc-200 px-4 py-2 rounded-sm flex-center gap-2'><FaArrowLeft />Back </Link>
+        <Link
+          href="#Project_section"
+          className="flex items-center justify-center gap-2 bg-neutral-500 px-4 py-2 rounded-sm hover:brightness-110 transition scroll-smooth"
+        >
+          <FaArrowDown className="animate-bounce" />
+          View Projects
+        </Link>        
+      </div>
     </div>
     </main>
     <div className='w-full flex flex-col p-4 md:p-9 gap-4 bg-[#9d9a9d]'>
-      {/* <nav className='border-amber-700 border flex justify-center p-4'>Projects</nav> */}
-      <section className='w-full flex-center flex-wrap bg-[#b5b2b5] border-2 border-white rounded-md'>
+      <section className='w-full flex-center flex-wrap bg-[#b5b2b5] border-2 border-white rounded-md' id='Project_section'>
+        {/* Project-Sections  */}
         <ProjectsBox imgLink='/Projects/01PJ.png' imgName='Vanilla-Project' iconLinks={['/Projects/icons/HTML5.svg','/Projects/icons/CSS3.svg','/Projects/icons/JS.svg','/Projects/icons/GIT.svg','/Projects/icons/GITHUB.svg']} liveLink='https://portfolio-smalakars-projects.vercel.app/' tag='#vanillaJS-Project' tagColor='#616161'/>
         <ProjectsBox imgLink='/Projects/02PJ.png' imgName='React-Project' iconLinks={['/Projects/icons/REACTJS.svg','/Projects/icons/TAILWINDCSS.svg','/Projects/icons/GIT.svg','/Projects/icons/GITHUB.svg','/Projects/icons/VERCEL.svg']} liveLink='https://smalakarweb.vercel.app/' tag='#reactJS-Project' />
         <ProjectsBox imgLink='/Projects/03PJ.png' imgName='NextJs-Projects' iconLinks={['/Projects/icons/NEXTJS.svg','/Projects/icons/TAILWINDCSS.svg','/Projects/icons/Gsap.png','/Projects/icons/GIT.svg','/Projects/icons/GITHUB.svg','/Projects/icons/AI.svg']} liveLink='https://smalakar.vercel.app/' tag='#nextJS-project' />
