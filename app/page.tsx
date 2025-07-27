@@ -3,11 +3,13 @@ import HeroSec from "@/sm-components/Hero-Section";
 import CountSection from "@/sm-components/Count-Section";
 import Cards from "@/sm-components/Cards-Section";
 import ProjectSec from "@/sm-components/Project-Section";
+import SkillSections from "@/sm-components/Skills-Section";
 export default function Home() {
   return (
     <main>
       <HeroSec />
       <CountSection />
+      <SkillSections/>
       <ProjectSec />
       <Cards />
     </main>
