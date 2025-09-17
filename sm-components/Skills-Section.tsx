@@ -56,20 +56,28 @@ function SkillSections() {
             >
               {activeTab === 'front' && (
                 <>
+                <SkillBars iconSkillLink="/Projects/icons/NEXTJS.svg" iconSkillName="nextjs" SkillBarPercent="70%" />
+                <SkillBars iconSkillLink="/Projects/icons/REACTJS.svg" iconSkillName="Reactjs" SkillBarPercent="88%" />
+                <SkillBars iconSkillLink="https://www.svgrepo.com/show/349540/typescript.svg" iconSkillName="typescript" SkillBarPercent="88%" />
+                <SkillBars iconSkillLink="https://www.svgrepo.com/show/349419/javascript.svg" iconSkillName="javascript" SkillBarPercent="88%" />
                 <SkillBars iconSkillLink="/Projects/icons/HTML5.svg" iconSkillName="HTML" SkillBarPercent="100%" />
                 <SkillBars iconSkillLink="/Projects/icons/CSS3.svg" iconSkillName="Css" SkillBarPercent="99%" />
-                <SkillBars iconSkillLink="/Projects/icons/REACTJS.svg" iconSkillName="Reactjs" SkillBarPercent="88%" />
-                <SkillBars iconSkillLink="/Projects/icons/NEXTJS.svg" iconSkillName="nextjs" SkillBarPercent="70%" />
                 </>
               )}
               {activeTab === 'back' && (
+                <>
                 <SkillBars iconSkillLink="/Projects/icons/NEXTJS.svg" iconSkillName="Nextjs" SkillBarPercent="70%" />
+                <SkillBars iconSkillLink="https://www.svgrepo.com/show/330398/express.svg" iconSkillName="ExpressJs" SkillBarPercent="90%" />
+                <SkillBars iconSkillLink="https://www.svgrepo.com/show/439231/mongodb.svg" iconSkillName="MongoDB" SkillBarPercent="90%" />
+                <SkillBars iconSkillLink="https://www.svgrepo.com/show/452075/node-js.svg" iconSkillName="NodeJs" SkillBarPercent="90%" />
+                </>
               )}
               {activeTab === 'other' && (
                 <>
                 <SkillBars iconSkillLink="/Projects/icons/GIT.svg" iconSkillName="Git" SkillBarPercent="96%" />
                 <SkillBars iconSkillLink="/Projects/icons/GITHUB.svg" iconSkillName="GitHub" SkillBarPercent="96%" />
                 <SkillBars iconSkillLink="/Projects/icons/Gsap.png" iconSkillName="Gsap" SkillBarPercent="77%" />
+                <SkillBars iconSkillLink="https://www.svgrepo.com/show/341828/framer.svg" iconSkillName="framer-motion" SkillBarPercent="77%" />
                 </>
               )}
             </motion.div>
