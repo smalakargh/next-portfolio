@@ -26,3 +26,5 @@ Welcome to my personal portfolio—built to reflect my technical depth and desig
 
 My portfolio includes an integrated chatbot that answers questions about me, my projects, and the site content. It’s context-aware and runs on a secure, streaming-first architecture.
 
+
+

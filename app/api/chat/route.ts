@@ -8,7 +8,7 @@ export async function POST(req: Request) {
   const { messages } = await req.json();
 
   const result = await streamText({
-    model : groq('gemma2-9b-it'),
+    model : groq('llama-3.3-70b-versatile'),
     system: systemPrompt,
     messages,
   });
